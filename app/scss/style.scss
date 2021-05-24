@@ -1,0 +1,124 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+.header {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 120px;
+    }
+
+    &__button {
+        border-color: transparent;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+    }
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.menu {
+    padding-right: 15px;
+
+    &__list {
+        display: flex;
+    }
+
+    &__list-item {
+        padding-left: 35px;
+        padding-right: 45px;
+    }
+
+    &__list-link {
+        @extend %title-font;
+        color: rgba(54, 56, 56, 0.9);
+        line-height: 22px;
+    }
+}
+
+// header
+
+// footer
+
+.footer {
+    &__content {
+        background-color: #DFDFDF;
+        padding: 60px 0 80px;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__info {
+        width: 540px;
+    }
+
+    &__info-title {
+        color: $title;
+        @extend %title-font;
+        margin-bottom: 14px;
+        line-height: 23px;
+    }
+
+    &__info-text {
+        margin-bottom: 16px;
+        max-width: 475px;
+    }
+
+    &__info-email {
+        display: inline-block;
+        font-weight: 600;
+        font-style: 14px;
+        color: $title;
+        margin-bottom: 22px;
+        padding-left: 30px;
+    }
+
+    &__form {
+        display: flex;
+    }
+
+    &__form-input {
+        padding: 6px 10px 6px 18px;
+        border-radius: 21px;
+        background-color: transparent;
+        border: 1px solid rgba($title, .7);
+        width: 100%;
+
+        &::placeholder {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27;
+            color: #a1a1a1;
+        }
+    }
+
+    &__form-button {
+        background-color: $title;
+        border: none;
+        color: #FFFFF0;
+        border-radius: 21px;
+        font-weight: 600;
+        padding: 6px 12px;
+        min-width: 160px;
+        margin-left: 9px;
+        cursor: pointer;
+    }
+
+    &__copyright {
+        background-color: $title;
+        color: #A1A1A1;
+        text-align: center;
+        padding: 42px 0 41px;
+    }
+}
