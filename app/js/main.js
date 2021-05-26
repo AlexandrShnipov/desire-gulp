@@ -8,4 +8,10 @@ $('.rightside-menu__close').on('click' , function () {
     $('.rightside-menu').addClass('rightside-menu--close'); 
  })
  
+ $('.top__slider').slick({
+    dots: true,
+    arrows: false,
+    fade: true,
+    autoplay: true
+ });
 })
