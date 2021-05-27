@@ -269,12 +269,13 @@
     }
 }
 
-// slider
+// main slider
 .top {
     &__inner {
         padding-bottom: 70px;
+        // background-color: #DFDFDF;
         position: relative;
-
+      
         &::after {
             content: '';
             background-image: url(../images/slider-bg.jpg);
@@ -297,7 +298,7 @@
         max-width: 703px;
         height: 815px;
         object-fit: cover;
-    }
+           }
 
     &__slider-info {
         max-width: 645px;
@@ -311,7 +312,7 @@
         padding-bottom: 26px;
         margin-bottom: 26px;
         position: relative;
-
+      
         &::after {
             content: '';
             position: absolute;
@@ -325,6 +326,6 @@
 
     &__slider-text {
         max-width: 585px;
+      
     }
-
 }
