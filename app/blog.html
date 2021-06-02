@@ -6,9 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,600;1,300"
     rel="stylesheet">
-  <link rel="stylesheet" href="css/style.min.css">
+
+     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
@@ -130,7 +131,7 @@
               <div class="blog__item article-popup">
                 <div class="article-popup__box">
                   <img class="blog__item-img" src="images/content/page-blog/big-2.jpg" alt="images">
-                  <a class="blog__item-popup" href="https://youtu.be/9lO06Zxhu88">
+                  <a class="blog__item-popup" data-fancybox href="https://youtu.be/9lO06Zxhu88">
                     <img class="blog__item-play" src="images/content/page-about/play-button.svg" alt="play-button">
                   </a>
                 </div>
@@ -172,7 +173,7 @@
               <!-- pagination -->
               <div class="pagination">
 
-                <a class="pagination__arrow" href="#">
+                <a class="pagination__arrow pagination__arrow--disabled" href="#">
                   <img class="pagination__arrow-icon" src="images/arrow-left.svg" alt="arrow icon">
                 </a>
 
@@ -189,11 +190,11 @@
                   </li>
                 </ul>
 
-                <a class="pagination__link" href="#">
+                <a class="pagination__arrow" href="#">
                   <img class="pagination__arrow-icon" src="images/arrow-right.svg" alt="arrow icon">
                 </a>
-
               </div>
+               <!-- pagination -->
 
             </div>
             <!-- blog__items -->
