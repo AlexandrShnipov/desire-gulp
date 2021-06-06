@@ -19,7 +19,8 @@
         padding: 0;
         cursor: pointer;
     }
-    &__btn-menu{
+
+    &__btn-menu {
         display: none;
     }
 }
@@ -275,21 +276,26 @@
     background: rgba(#DFDFDF, .5);
     padding: 13px 14px;
     position: relative;
-    z-index: 9;
+    z-index: 10;
 
     &__list {
         display: flex;
+        overflow-x: auto;
     }
 
-    &__item:not(:last-child)::after {
+    &__item {
+        position: relative;
+        padding-right: 8px;
+    }
+
+    &__item::after {
         content: '/';
-        margin-left: -4px;
-        margin-right: 4px;
+        position: absolute;
     }
 
-    // &__item:last-child::after{
-    //     display: none;
-    // }
+    &__item:last-child::after{
+        display: none;
+    }
 
     &__link {
         font-size: 14px;
