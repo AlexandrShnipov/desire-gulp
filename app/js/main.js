@@ -16,6 +16,10 @@ $('.rightside-menu__close').on('click' , function () {
 
 
 
+if($(window).width() < 651){
+   $('.works-path__item--measuring').appendTo($('.works-path__items-box '));
+}
+
  
  $('.top__slider').slick({
     dots: true,

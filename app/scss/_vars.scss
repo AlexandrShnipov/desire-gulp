@@ -6,10 +6,18 @@ $default: #5A5A5A;
     font-weight: 700;
 }
 
+@media (max-width: 540px) {
+    %title-font {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+
 
 @function max($numbers...) {
- @return m#{a}x(#{$numbers});
+    @return m#{a}x(#{$numbers});
 }
+
 @function min($numbers...) {
- @return m#{i}n(#{$numbers});
+    @return m#{i}n(#{$numbers});
 }
