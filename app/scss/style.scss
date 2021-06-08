@@ -858,6 +858,9 @@
 .map {
     margin-top: -53px;
     margin-bottom: 50px;
+    iframe{
+        height: 578px;
+    }
 }
 
 .contact {
@@ -920,7 +923,7 @@
         border: 1px solid #DFDFDF;
         border-radius: 20px;
         padding: 6px 17px;
-        flex-basis: 48%;
+        width: 48%;
         margin-bottom: 13px;
 
         &::placeholder {
@@ -984,18 +987,18 @@
     &__title {
         transform: all .5s;
         position: absolute;
-        left: 0;
-        right: 0;
+        left: -35px;
+        right: -5px;
         top: 0;
         bottom: 0;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         background-color: rgba(#fff, .6);
         color: $title;
         @extend %title-font;
         line-height: 22px;
-        padding: 0 5px;
+        padding: 0 55px;
         text-align: center;
         opacity: 0;
     }
