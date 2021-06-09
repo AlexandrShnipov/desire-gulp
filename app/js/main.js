@@ -93,3 +93,35 @@ if($(window).width() < 651){
 
 })
 
+
+// ! goTopLink
+
+const goTopLink = document.querySelector('.go-top__link')
+window.addEventListener('scroll', function (){
+  if (window.scrollY > 0){
+goTopLink.style.display = 'flex'
+  }
+  else {
+    goTopLink.style.display = 'none'
+  }
+})
+
+
+
+let anchors = document.querySelectorAll('a[href*="#"]')
+
+// for (let i = 0; i < anchors.length; i++){
+//   anchors[i]
+// }
+
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function (event) {
+    event.preventDefault()
+    let blockID = anchor.getAttribute('href')
+    document.querySelector(blockID).scrollIntoView({
+      behavior: "smooth",
+      block: 'start'
+    })
+  })
+}
+
