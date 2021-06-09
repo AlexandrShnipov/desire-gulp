@@ -201,6 +201,13 @@
     }
 }
 
+.top-link__img {
+    width: 40px;
+    position: fixed;
+    right: 35px;
+    bottom: 170px;
+}
+
 // rightside-menu
 .rightside-menu {
     position: absolute;
@@ -1383,6 +1390,7 @@
         font-weight: 600;
         font-size: 14px;
         color: #707070;
+        cursor: pointer;
     }
 
     &__comments-name {
@@ -1433,7 +1441,7 @@
         border: 1px solid #DFDFDF;
         border-radius: 20px;
         padding: 6px 17px;
-        flex-basis: 48%;
+        width: 48%;
         margin-bottom: 20px;
 
         &::placeholder {

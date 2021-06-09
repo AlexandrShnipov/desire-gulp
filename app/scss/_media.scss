@@ -39,6 +39,31 @@
     }
 }
 
+@media (max-width: 1040px) {
+    .blog {
+        &__inner {
+            flex-wrap: wrap;
+        }
+
+        &__items {
+            max-width: 100%;
+        }
+
+        &__item-img {
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+
+
+    .aside {
+        order: -1;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+}
+
 @media (max-width: 992px) {
     .footer {
         &__info {
@@ -368,6 +393,70 @@
         }
     }
 
+    .blog__category-title,
+    .recent-posts__title,
+    .blog__tags-title,
+    .blog__blockquote-author {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .blog {
+        &__item-title {
+            font-size: 24px;
+            line-height: 38px;
+        }
+    }
+
+    .blog-one {
+        &__links {
+            padding: 30px 0;
+        }
+
+        &__link {
+            span {
+                display: none;
+            }
+        }
+
+        &__form-input {
+            width: 100%;
+        }
+
+        &__comments-title {
+            font-size: 20px;
+            line-height: 31px;
+        }
+
+        &__comments-name,
+        &__form-title {
+            font-size: 16px;
+            line-height: 27px;
+        }
+
+        &__comments-item {
+            flex-wrap: wrap;
+        }
+
+        &__comments-avatar {
+            width: 45px;
+            height: 45px;
+        }
+
+        &__comments-name,
+        &__comments-date {
+            margin-left: 55px;
+        }
+
+        &__comments-info{
+            margin-top: -46px;
+        }
+
+        &__reply{
+            margin-left: 0;
+        }
+    }
+
     .gallery {
         &__items {
             grid-template-columns: repeat(1, 1fr);
@@ -440,7 +529,12 @@
             height: 310px;
         }
     }
+
     .slick-dots li {
         margin: 0 1px;
+    }
+
+    .blog-one__item blockquote {
+        padding: 0 20px;
     }
 }
