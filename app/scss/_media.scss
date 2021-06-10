@@ -24,7 +24,6 @@
     .top {
         &__slider-title {
             font-size: 62px;
-            line-height: 74px;
         }
 
         &__slider-img {
@@ -103,7 +102,6 @@
 
         &__slider-title {
             font-size: 44px;
-            line-height: 54px;
         }
 
         &__slider-img {
@@ -377,20 +375,18 @@
 
     %title-font {
         font-size: 28px;
-        line-height: 36px;
+        line-height: 1.29em;
     }
 
     .works-path {
         &__item-title {
             font-size: 16px;
-            line-height: 27px;
         }
     }
 
     .about {
         &__prev-title {
             font-size: 40px;
-            line-height: 48px;
         }
     }
 
@@ -399,13 +395,11 @@
     .blog__tags-title,
     .blog__blockquote-author {
         font-size: 16px;
-        line-height: 23px;
     }
 
     .blog {
         &__item-title {
             font-size: 24px;
-            line-height: 38px;
         }
     }
 
@@ -426,13 +420,11 @@
 
         &__comments-title {
             font-size: 20px;
-            line-height: 31px;
         }
 
         &__comments-name,
         &__form-title {
             font-size: 16px;
-            line-height: 27px;
         }
 
         &__comments-item {
@@ -479,7 +471,6 @@
     .blog-box {
         &__item-title {
             font-size: 22px;
-            line-height: 36px;
         }
     }
 
@@ -488,7 +479,6 @@
         &__item-text,
         &__num {
             font-size: 16px;
-            line-height: 23px;
         }
 
         &__item-text {

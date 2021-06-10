@@ -44,7 +44,7 @@
     &__list-link {
         @extend %title-font;
         color: rgba(54, 56, 56, 0.9);
-        line-height: 22px;
+        line-height: 1.38em;
     }
 
     &__list-link--active {
@@ -88,7 +88,7 @@
         color: $title;
         @extend %title-font;
         margin-bottom: 14px;
-        line-height: 23px;
+        line-height: 1.44em;
     }
 
     &__info-text {
@@ -250,7 +250,7 @@
         color: $title;
         @extend %title-font;
         font-size: 36px;
-        line-height: 51px;
+        line-height: 1.42em;
         position: relative;
         margin-bottom: 17px;
         padding-bottom: 17px;
@@ -349,7 +349,7 @@
     &__slider-title {
         color: $title;
         font-size: 110px;
-        line-height: 135px;
+        line-height: 1.23em;
         padding-bottom: 26px;
         margin-bottom: 26px;
         position: relative;
@@ -381,7 +381,7 @@
         @extend %title-font;
         color: $title;
         font-size: 35px;
-        line-height: 51px;
+        line-height: 1.46em;
         padding-bottom: 25px;
         margin-bottom: 25px;
         position: relative;
@@ -444,7 +444,7 @@
 
     &__info-title {
         font-size: 20px;
-        line-height: 25px;
+        line-height: 1.25em;
         @extend %title-font;
         color: $title;
         padding-bottom: 19px;
@@ -484,7 +484,7 @@
         @extend %title-font;
         color: $title;
         font-size: 60px;
-        line-height: 80px;
+        line-height: 1.33em;
         margin-bottom: 22px;
         padding-bottom: 22px;
         position: relative;
@@ -516,7 +516,7 @@
         color: $title;
         margin-bottom: 40px;
         font-size: 36px;
-        line-height: 51px;
+        line-height: 1.42em;
     }
 
     &__items-box {
@@ -661,7 +661,7 @@
         color: $title;
         @extend %title-font;
         font-size: 36px;
-        line-height: 51px;
+        line-height: 1.42em;
         margin: 0 auto 30px;
         max-width: 430px;
         text-align: center;
@@ -695,7 +695,7 @@
         color: $title;
         @extend %title-font;
         font-size: 24px;
-        line-height: 38px;
+        line-height: 1.58em;
     }
 }
 
@@ -716,7 +716,7 @@
         color: $title;
         @extend %title-font;
         font-size: 60px;
-        line-height: 80px;
+        line-height: 1.33em;
     }
 
     &__content {
@@ -727,7 +727,7 @@
         color: $title;
         @extend %title-font;
         font-size: 36px;
-        line-height: 60px;
+        line-height: 1.67em;
         margin-bottom: 22px;
         padding-bottom: 22px;
         position: relative;
@@ -797,7 +797,7 @@
 
     &__title {
         font-size: 36px;
-        line-height: 56px;
+        line-height: 1.56em;
         color: $title;
         @extend %title-font;
         padding-bottom: 16px;
@@ -822,7 +822,7 @@
     &__item {
         color: $title;
         @extend %title-font;
-        line-height: 23px;
+        line-height: 1.44em;
         margin-bottom: 33px;
     }
 
@@ -877,7 +877,7 @@
         color: $title;
         @extend %title-font;
         font-size: 36px;
-        line-height: 60px;
+        line-height: 1.67em;
         padding-bottom: 25px;
         margin-bottom: 40px;
         position: relative;
@@ -938,7 +938,7 @@
             font-family: 'Open Sans', sans-serif;
             font-weight: 400;
             font-size: 16px;
-            line-height: 27px;
+            line-height: 1.69em;
         }
     }
 
@@ -956,7 +956,7 @@
             font-family: 'Open Sans', sans-serif;
             font-weight: 400;
             font-size: 16px;
-            line-height: 27px;
+            line-height: 1.69em;
         }
     }
 
@@ -1004,7 +1004,7 @@
         background-color: rgba(#fff, .6);
         color: $title;
         @extend %title-font;
-        line-height: 22px;
+        line-height: 1.38em;
         padding: 0 55px;
         text-align: center;
         opacity: 0;
@@ -1029,7 +1029,7 @@
         margin-bottom: 16px;
         color: $title;
         @extend %title-font;
-        line-height: 23px;
+        line-height: 1.44em;
     }
 
     &__category-item {
@@ -1049,7 +1049,7 @@
         color: #8F8D8D;
         font-weight: 600;
         font-size: 14px;
-        line-height: 28px;
+        line-height: 2em;
         padding: 0 16px;
         margin-bottom: 10px;
         margin-right: 10px;
@@ -1090,7 +1090,7 @@
 
     &__item-title {
         font-size: 24px;
-        line-height: 38px;
+        line-height: 1.58em;
         margin-bottom: 6px;
         color: $title;
         @extend %title-font;
@@ -1103,13 +1103,13 @@
         font-weight: 300;
         font-style: italic;
         font-size: 24px;
-        line-height: 38px;
+        line-height: 1.58em;
         text-align: center;
     }
 
     &__blockquote-author {
         font-size: 16px;
-        line-height: 22px;
+        line-height: 1.38em;
         text-align: center;
         color: $title;
         @extend %title-font;
@@ -1175,7 +1175,7 @@
         margin-bottom: 24px;
         color: $title;
         @extend %title-font;
-        line-height: 23px;
+        line-height: 1.44em;
     }
 
     &__item {
@@ -1215,7 +1215,7 @@
             font-family: 'Open Sans', sans-serif;
             font-weight: 400;
             font-size: 14px;
-            line-height: 27px;
+            line-height: 1.93em;
             color: #A1A1A1;
         }
     }
@@ -1255,7 +1255,7 @@
     &__list-num {
         font-weight: 600;
         font-size: 14px;
-        line-height: 28px;
+        line-height: 2em;
         color: #707070;
     }
 
@@ -1296,7 +1296,7 @@
     &__tags-title {
         color: $title;
         font-size: 20px;
-        line-height: 31px;
+        line-height: 1.55em;
         @extend %title-font;
         margin-bottom: 15px;
     }
@@ -1309,7 +1309,7 @@
         color: #8F8D8D;
         font-weight: 600;
         font-size: 14px;
-        line-height: 28px;
+        line-height: 2em;
         border: 1px solid rgba(#454647, .5);
         border-radius: 14px;
     }
@@ -1363,7 +1363,7 @@
         color: $title;
         @extend %title-font;
         font-size: 20px;
-        line-height: 31px;
+        line-height: 1.55em;
         margin-bottom: 15px;
     }
 
@@ -1396,7 +1396,7 @@
     &__comments-name {
         color: $title;
         @extend %title-font;
-        line-height: 23px;
+        line-height: 1.44em;
     }
 
     &__comments-date {
@@ -1415,7 +1415,7 @@
         margin-bottom: 25px;
         color: $title;
         @extend %title-font;
-        line-height: 23px;
+        line-height: 1.44em;
     }
 
     &__form-textarea {
@@ -1432,7 +1432,7 @@
             font-family: 'Open Sans', sans-serif;
             font-weight: 400;
             font-size: 16px;
-            line-height: 27px;
+            line-height: 1.69em;
         }
 
     }
@@ -1449,7 +1449,7 @@
             font-family: 'Open Sans', sans-serif;
             font-weight: 400;
             font-size: 16px;
-            line-height: 27px;
+            line-height: 1.69em;
         }
     }
 
