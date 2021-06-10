@@ -308,9 +308,10 @@
 
 @media (max-width: 540px) {
 
-    //     .menu__list-link--active::after{
-    //        display: none;
-    //    }
+    .menu__list-link--active::after {
+        display: none;
+    }
+
     .logo {
         order: -1;
     }
@@ -448,11 +449,11 @@
             margin-left: 55px;
         }
 
-        &__comments-info{
+        &__comments-info {
             margin-top: -46px;
         }
 
-        &__reply{
+        &__reply {
             margin-left: 0;
         }
     }
