@@ -89,7 +89,7 @@
         @extend %title-font;
         margin-bottom: 14px;
         line-height: 1.44em;
-            }
+    }
 
     &__info-text {
         margin-bottom: 16px;
@@ -300,7 +300,7 @@
         position: absolute;
     }
 
-    &__item:last-child::after{
+    &__item:last-child::after {
         display: none;
     }
 
@@ -865,7 +865,8 @@
 .map {
     margin-top: -53px;
     margin-bottom: 50px;
-    iframe{
+
+    iframe {
         height: 578px;
     }
 }
@@ -977,6 +978,7 @@
     &__link {
         position: relative;
         margin-bottom: 20px;
+        overflow: hidden;
 
         &:hover {
             .contact-slider__title {
@@ -995,7 +997,7 @@
         transform: all .5s;
         position: absolute;
         left: -35px;
-        right: -5px;
+        right: -21px;
         top: 0;
         bottom: 0;
         display: flex;
