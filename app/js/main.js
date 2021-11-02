@@ -110,9 +110,6 @@ goTopLink.style.display = 'flex'
 
 let anchors = document.querySelectorAll('a[href*="#"]')
 
-// for (let i = 0; i < anchors.length; i++){
-//   anchors[i]
-// }
 
 for (let anchor of anchors) {
   anchor.addEventListener('click', function (event) {

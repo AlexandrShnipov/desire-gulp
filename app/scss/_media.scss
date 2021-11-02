@@ -352,7 +352,7 @@
         transition: all .5s;
 
         &--open {
-            transform: translateY(-10px);
+            transform: translateY(10px);
         }
 
         &__list {

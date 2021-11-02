@@ -48,7 +48,7 @@
     }
 
     &__list-link--active {
-        padding-bottom: 4px;
+        padding-bottom: 0.3em;
         position: relative;
 
         &::after {
@@ -57,9 +57,9 @@
             bottom: 0;
             left: 0;
             right: 0;
-            height: 2px;
+            height: 1px;
             border-radius: 1px;
-            background-color: rgba($title, .7);
+            background-color: $default;
 
         }
     }
@@ -89,7 +89,7 @@
         @extend %title-font;
         margin-bottom: 14px;
         line-height: 1.44em;
-    }
+            }
 
     &__info-text {
         margin-bottom: 16px;
@@ -205,7 +205,7 @@
     width: 40px;
     position: fixed;
     right: 35px;
-    bottom: 170px;
+    bottom: 115px;
 }
 
 // rightside-menu
