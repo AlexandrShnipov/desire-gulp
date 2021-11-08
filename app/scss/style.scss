@@ -5,6 +5,7 @@
 @import 'global';
 
 .header {
+
     &__inner {
         display: flex;
         justify-content: space-between;
@@ -70,9 +71,11 @@
 // footer
 
 .footer {
+
     &__content {
         background-color: #DFDFDF;
         padding: 60px 0 80px;
+
     }
 
     &__inner {
@@ -206,11 +209,12 @@
     position: fixed;
     right: 35px;
     bottom: 50px;
+    z-index: 16;
 }
 
 // rightside-menu
 .rightside-menu {
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
     bottom: 0;

@@ -1,6 +1,11 @@
+// * {
+// 	outline: 1px solid;
+// }
+
 html,
 body {
 	height: 100%;
+	overflow-x: hidden;
 }
 
 body {
@@ -11,7 +16,6 @@ body {
 	color: $default;
 	overflow-x: hidden;
 	min-width: 300px;
-
 }
 
 .wrapper {
